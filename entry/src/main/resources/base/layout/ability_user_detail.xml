@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:usersinformation"
+        ohos:scale_y="1.2"
+        ohos:scale_x="1.2"
+        ohos:layout_alignment="center"
+        ohos:top_margin="40vp">
+
+    </Image>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_padding="40vp"
+        ohos:right_padding="40vp">
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:usersname"
+            ohos:scale_y="0.8"
+            ohos:scale_x="0.8"
+            ohos:top_margin="30vp">
+
+        </Image>
+
+        <Text
+            ohos:id="$+id:user_detail_page_user_uname_text_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="hsd"
+            ohos:text_size="20vp"
+            ohos:left_margin="190vp"
+            ohos:top_margin="37vp">
+
+        </Text>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_padding="40vp"
+        ohos:right_padding="40vp">
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:nickname"
+            ohos:scale_y="0.6"
+            ohos:scale_x="0.6"
+            ohos:top_margin="20vp">
+
+        </Image>
+
+        <Text
+            ohos:id="$+id:user_detail_page_user_nickName_text_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="黄丑迪"
+            ohos:text_size="20vp"
+            ohos:left_margin="190vp"
+            ohos:top_margin="33vp">
+
+        </Text>
+
+    </DependentLayout>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:padding="5vp"
+        ohos:rebound_effect="true">
+        <TableLayout
+            ohos:id="$+id:user_detail_post_list_table"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="1"
+            ohos:top_margin="10vp">
+        </TableLayout>
+    </ScrollView>
+
+</DirectionalLayout>

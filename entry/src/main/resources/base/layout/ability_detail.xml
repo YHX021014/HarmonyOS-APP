@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:id="$+id:detail_page"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+        <Text
+            ohos:id="$+id:detail_page_UserName_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="20fp"
+            ohos:text_color="#FF000000"
+            ohos:left_margin="10vp"
+            ohos:text="用户名  黄帅迪666"
+            ohos:top_margin="5vp"
+            >
+        </Text>
+        <Text
+            ohos:id="$+id:detail_page_title_id"
+            ohos:height="match_content"
+            ohos:width="260vp"
+            ohos:text_size="20fp"
+            ohos:below="$id:detail_page_UserName_id"
+            ohos:text_color="#FF000000"
+            ohos:left_margin="10vp"
+            ohos:max_text_lines="10"
+            ohos:multiple_lines="true"
+            ohos:text="文书工作需要时间，梅西的迈阿密首秀可能推迟"
+            ohos:top_margin="5vp">
+        </Text>
+
+        <Image
+            ohos:id="$+id:detail_page_subscribe_btn_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="5vp"
+            ohos:right_of="$id:detail_page_title_id"
+            ohos:left_margin="20vp"
+            ohos:scale_x="0.7"
+            ohos:scale_y="0.7"
+            ohos:image_src="$media:subscribe0">
+        </Image>
+        <Text
+            ohos:id="$+id:detail_page_subscribe_text_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:detail_page_subscribe_btn_id"
+            ohos:right_of="$id:detail_page_title_id"
+            ohos:left_margin="18vp"
+            ohos:top_margin="-6vp"
+            ohos:text="关注ta"
+            ohos:text_alignment="center"
+            ohos:text_size="14fp">
+        </Text>
+
+    </DependentLayout>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content"
+        ohos:background_element="#FF9B9B9B">
+    </Component>
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="43vp"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:example">
+    </Image>
+
+
+    <ScrollView
+        ohos:height="500vp"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true">
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_parent">
+            <Image
+                ohos:id="$+id:detail_page_image_id"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:top_margin="10vp"
+                ohos:scale_mode="inside"
+                ohos:image_src="$media:post_football_1_image">
+            </Image>
+            <Text
+                ohos:id="$+id:detail_page_text_id"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:max_text_lines="10"
+                ohos:multiple_lines="true"
+                ohos:scrollable="true"
+                ohos:below="$id:detail_page_image_id"
+                ohos:text="        根据记者黄思迪的报道，由于MLS的文书的工作需要时间才能完成，梅西的迈阿密国际首秀可能被推迟。迈阿密国际队依然计划在7月21日让梅西参加首场比赛，不过在周四又表示这一日期没有确定。"
+                ohos:text_size="18fp"
+                ohos:top_margin="10vp">
+            </Text>
+        </DependentLayout>
+    </ScrollView>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+        <Button
+            ohos:id="$+id:detail_page_back_button_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="5vp"
+            ohos:top_margin="1vp"
+            ohos:bottom_margin="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:scale_x="1.2"
+            ohos:scale_y="1.2"
+            ohos:element_right="$media:return4">
+        </Button>
+
+        <Image
+            ohos:id="$+id:detail_page_like_button_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="95vp"
+            ohos:top_margin="1vp"
+            ohos:bottom_margin="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:image_src="$media:praise1">
+        </Image>
+
+        <Image
+            ohos:id="$+id:detail_page_collect_button_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="185vp"
+            ohos:top_margin="1vp"
+            ohos:bottom_margin="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:image_src="$media:collect1">
+        </Image>
+
+        <Button
+            ohos:id="$+id:detail_page_comment_button_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="275vp"
+            ohos:top_margin="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:bottom_margin="1vp"
+            ohos:element_right="$media:comment">
+        </Button>
+
+    </DependentLayout>
+</DirectionalLayout>

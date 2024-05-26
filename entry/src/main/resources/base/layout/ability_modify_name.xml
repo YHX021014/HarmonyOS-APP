@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="40vp"
+            ohos:top_margin="10vp"
+            ohos:image_src="$media:xiugaiyonghuxinxi">
+
+        </Image>
+
+    </DependentLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="新用户名:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="30fp">
+
+    </Text>
+
+    <TextField
+        ohos:id="$+id:modify_name_page_newUserName_textfield_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="请输入新用户名"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFBABABA"
+        ohos:background_element="$graphic:home_img_element"
+        ohos:top_margin="10vp">
+    </TextField>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="新昵称:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="20fp">
+
+    </Text>
+    <TextField
+        ohos:id="$+id:modify_name_page_newNickName_textfield_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="请输入新昵称"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFBABABA"
+        ohos:background_element="$graphic:home_img_element"
+        ohos:top_margin="10vp">
+    </TextField>
+
+    <Button
+        ohos:id="$+id:modify_name_page_confirm_button_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="确认修改"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="45vp"
+        ohos:text_size="25vp">
+    </Button>
+
+</DirectionalLayout>

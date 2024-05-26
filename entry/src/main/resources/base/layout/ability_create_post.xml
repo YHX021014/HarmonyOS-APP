@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="40vp"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:title">
+    </Image>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="标题"
+            ohos:text_size="24vp"
+            ohos:top_margin="5vp"
+            ohos:text_color="#FF000000">
+        </Text>
+
+        <TextField
+            ohos:id="$+id:create_post_page_title_textField_id"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="60vp"
+            ohos:top_margin="8vp"
+            ohos:hint="输入标题"
+            ohos:text_size="20vp">
+        </TextField>
+    </DependentLayout>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content"
+        ohos:background_element="#FF9B9B9B">
+    </Component>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="正文"
+        ohos:text_size="24vp"
+        ohos:top_margin="5vp"
+        ohos:text_color="#FF000000">
+    </Text>
+
+
+
+
+
+    <TextField
+        ohos:id="$+id:create_post_page_text_textField_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="分享你的心情、观点和经历..."
+        ohos:text_size="20vp">
+
+    </TextField>
+
+
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content"
+        ohos:top_margin="280vp"
+        ohos:background_element="#FF9B9B9B">
+    </Component>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="分区"
+            ohos:text_size="24vp"
+            ohos:top_margin="5vp"
+            ohos:bottom_margin="5vp"
+            ohos:text_color="#FF000000">
+        </Text>
+
+        <TextField
+            ohos:id="$+id:create_post_page_forum_textField_id"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="50vp"
+            ohos:top_margin="8vp"
+            ohos:hint="选择将要发布的贴吧分区"
+            ohos:text_size="20vp">
+        </TextField>
+
+    </DependentLayout>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content"
+        ohos:background_element="#FF9B9B9B">
+    </Component>
+
+    <Button
+        ohos:id="$+id:create_post_page_create_button_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="发  布"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="45vp"
+        ohos:text_size="25vp">
+    </Button>
+
+
+
+
+
+</DirectionalLayout>

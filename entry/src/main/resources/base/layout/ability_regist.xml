@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk1"
+    ohos:padding="30vp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="HSD         小黄贴吧"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text_size="30fp">
+
+    </Text>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+        <Image
+            ohos:top_margin="5vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:regist1">
+        </Image>
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="注册"
+            ohos:left_margin="140vp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFFFFFFF"
+            ohos:top_margin="15fp">
+        </Text>
+    </DependentLayout>
+
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="账号:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FFFFFFFF"
+        ohos:top_margin="40fp">
+
+    </Text>
+
+    <TextField
+        ohos:id="$+id:regist_uname"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:hint="  请输入账户名称"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_size="20vp">
+
+    </TextField>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="密码:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FFFFFFFF"
+        ohos:top_margin="30fp">
+
+    </Text>
+    <TextField
+        ohos:id="$+id:regist_pwd"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="  请输入密码"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_input_type="pattern_password"
+        ohos:text_size="20vp">
+
+    </TextField>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="请再次输入密码:"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text_size="25fp"
+        ohos:top_margin="30fp">
+
+    </Text>
+
+    <TextField
+        ohos:id="$+id:regist_repwd"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="  请输入密码"
+        ohos:text_input_type="pattern_password"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_size="20vp">
+
+    </TextField>
+
+    <Button
+        ohos:id="$+id:regist_regis"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="确认注册"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:background_element="$graphic:login_button_element_selector"
+        ohos:top_margin="76vp"
+        ohos:text_size="25vp">
+
+    </Button>
+
+
+</DirectionalLayout>

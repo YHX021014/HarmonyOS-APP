@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:login_background"
+    ohos:padding="40vp">
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:title"
+        ohos:layout_alignment="center"
+        ohos:scale_mode="center"
+        ohos:top_margin="20vp">
+    </Image>
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:scale_x="1.2"
+        ohos:scale_y="1.2"
+        ohos:top_margin="46vp"
+        ohos:image_src="$media:logo">
+    </Image>
+
+    <TextField
+        ohos:id="$+id:login_username"
+        ohos:height="36vp"
+        ohos:width="match_parent"
+        ohos:hint="请输入用户名"
+        ohos:text_size="20fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="46vp"
+        ohos:text_alignment="center"
+        ohos:background_element="$graphic:background_ability_main">
+    </TextField>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content">
+    </Component>
+
+    <TextField
+        ohos:id="$+id:login_pwd"
+        ohos:height="36vp"
+        ohos:width="match_parent"
+        ohos:hint="请输入密码"
+        ohos:text_input_type="pattern_password"
+        ohos:text_size="20fp"
+        ohos:text_color="#FF000000"
+        ohos:text_alignment="center"
+        ohos:top_margin="36vp"
+        ohos:background_element="$graphic:background_ability_main">
+    </TextField>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content">
+    </Component>
+
+    <Checkbox
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="记住我 "
+        ohos:text_color_on="#FFFFFFFF"
+        ohos:text_color_off="#FFFFFFFF"
+        ohos:text_size="17fp"
+        ohos:top_margin="28vp"
+        ohos:background_element="#0D4A4A4A"
+        ohos:check_element="$graphic:checkbox_check_element">
+    </Checkbox>
+
+    <Button
+        ohos:id="$+id:login_log"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="登    录"
+        ohos:background_element="$graphic:login_button_element_selector"
+        ohos:top_margin="36vp"
+        ohos:text_color="#F6FFFFFF"
+        ohos:text_size="26fp">
+    </Button>
+
+
+    <Button
+        ohos:id="$+id:login_regis"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text="注    册"
+        ohos:text_size="26fp"
+        ohos:layout_alignment="center"
+        ohos:background_element="$graphic:login_button_element_selector"
+        ohos:top_margin="36vp">
+    </Button>
+
+    <Button
+        ohos:id="$+id:login_forget"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text="忘记密码？别担心来点我！"
+        ohos:text_size="14fp"
+        ohos:layout_alignment="center"
+        ohos:top_margin="19vp">
+    </Button>
+
+</DirectionalLayout>

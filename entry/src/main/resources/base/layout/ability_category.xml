@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="30vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="40vp"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:title">
+    </Image>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="10vp">
+        <Button
+            ohos:id="$+id:category_page_button_no_use"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_bottom="$media:categroy_button"
+            ohos:left_margin="20vp">
+        </Button>
+
+        <Button
+            ohos:id="$+id:category_page_button_create_forum_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_bottom="$media:creat_button"
+            ohos:right_of="$id:category_page_button_no_use"
+            ohos:left_margin="30vp">
+        </Button>
+
+        <Button
+            ohos:id="$+id:category_page_button_subscribe_forum_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:right_of="$id:category_page_button_create_forum_id"
+            ohos:element_bottom="$media:follow_button"
+            ohos:left_margin="30vp">
+        </Button>
+
+        <Button
+            ohos:id="$+id:category_page_button_search_forum_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:right_of="$id:category_page_button_subscribe_forum_id"
+            ohos:left_margin="30vp"
+            ohos:top_margin="-4vp"
+            ohos:scale_y="0.7"
+            ohos:scale_x="0.7"
+            ohos:element_bottom="$media:search_button">
+        </Button>
+    </DependentLayout>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true">
+        <TableLayout
+            ohos:id="$+id:index_forum_list_table"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="1"
+            ohos:top_margin="10vp">
+        </TableLayout>
+    </ScrollView>
+
+</DirectionalLayout>

@@ -1,0 +1,284 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "registability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "registability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_RegistAbility",
+      "value": "entry_RegistAbility"
+    },
+    {
+      "name": "page1ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "page1ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Page1Ability",
+      "value": "entry_Page1Ability"
+    },
+    {
+      "name": "interface4ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "interface4ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Interface4Ability",
+      "value": "entry_Interface4Ability"
+    },
+    {
+      "name": "interface5ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "interface5ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Interface5Ability",
+      "value": "entry_Interface5Ability"
+    },
+    {
+      "name": "interface6ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "interface6ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Interface6Ability",
+      "value": "entry_Interface6Ability"
+    },
+    {
+      "name": "mainability2_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability2_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MainAbility2",
+      "value": "entry_MainAbility2"
+    },
+    {
+      "name": "homeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "homeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_HomeAbility",
+      "value": "entry_HomeAbility"
+    },
+    {
+      "name": "basicpgaeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "basicpgaeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_BasicPgaeAbility",
+      "value": "entry_BasicPgaeAbility"
+    },
+    {
+      "name": "modifyability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "modifyability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ModifyAbility",
+      "value": "entry_ModifyAbility"
+    },
+    {
+      "name": "detailability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "detailability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_DetailAbility",
+      "value": "entry_DetailAbility"
+    },
+    {
+      "name": "tieba1",
+      "value": "足球吧"
+    },
+    {
+      "name": "forumdetailability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "forumdetailability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ForumDetailAbility",
+      "value": "entry_ForumDetailAbility"
+    },
+    {
+      "name": "modifynameability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "modifynameability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ModifyNameAbility",
+      "value": "entry_ModifyNameAbility"
+    },
+    {
+      "name": "commentability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "commentability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_CommentAbility",
+      "value": "entry_CommentAbility"
+    },
+    {
+      "name": "createpostability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "createpostability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_CreatePostAbility",
+      "value": "entry_CreatePostAbility"
+    },
+    {
+      "name": "createforumability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "createforumability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_CreateForumAbility",
+      "value": "entry_CreateForumAbility"
+    },
+    {
+      "name": "subscribeforumability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "subscribeforumability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SubscribeForumAbility",
+      "value": "entry_SubscribeForumAbility"
+    },
+    {
+      "name": "createcommentability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "createcommentability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_CreateCommentAbility",
+      "value": "entry_CreateCommentAbility"
+    },
+    {
+      "name": "searchuserability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "searchuserability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SearchUserAbility",
+      "value": "entry_SearchUserAbility"
+    },
+    {
+      "name": "searchability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "searchability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SearchAbility",
+      "value": "entry_SearchAbility"
+    },
+    {
+      "name": "followuserability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "followuserability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_FollowUserAbility",
+      "value": "entry_FollowUserAbility"
+    },
+    {
+      "name": "fansuserability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "fansuserability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_FansUserAbility",
+      "value": "entry_FansUserAbility"
+    },
+    {
+      "name": "userdetailability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "userdetailability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_UserDetailAbility",
+      "value": "entry_UserDetailAbility"
+    }
+  ]
+}

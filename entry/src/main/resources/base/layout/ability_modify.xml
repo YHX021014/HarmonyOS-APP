@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="30vp"
+            ohos:top_margin="20vp"
+            ohos:image_src="$media:modify_information">
+        </Image>
+
+    </DependentLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="原密码:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="20fp">
+
+    </Text>
+
+    <TextField
+        ohos:id="$+id:modify_page_old_password_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="请输入原密码"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFBABABA"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_input_type="pattern_password"
+        ohos:top_margin="10vp">
+    </TextField>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="新密码:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="20fp">
+
+    </Text>
+    <TextField
+        ohos:id="$+id:modify_page_new_password_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="请输入密码"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFBABABA"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_input_type="pattern_password"
+        ohos:top_margin="10vp">
+    </TextField>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="请再次输入密码:"
+        ohos:text_size="25fp"
+        ohos:text_color="#FF000000"
+        ohos:top_margin="20fp">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:modify_page_new_re_password_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="请再次输入密码"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFBABABA"
+        ohos:background_element="$graphic:home_search_element"
+        ohos:text_input_type="pattern_password"
+        ohos:top_margin="10vp">
+    </TextField>
+
+    <Button
+        ohos:id="$+id:modify_page_confirm_button_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="确认修改"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="45vp"
+        ohos:text_size="25vp">
+
+    </Button>
+
+</DirectionalLayout>

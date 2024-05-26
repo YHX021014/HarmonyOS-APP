@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:title">
+    </Image>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal">
+
+        <TextField
+            ohos:id="$+id:search_textfield"
+            ohos:height="35vp"
+            ohos:width="270vp"
+            ohos:hint="贴 吧 名 称"
+            ohos:text_size="20fp"
+            ohos:text_color="#FFBABABA"
+            ohos:background_element="$graphic:home_img_element"
+            ohos:text_alignment="center"
+            ohos:top_margin="18vp"
+            ohos:left_margin="10vp"
+            ohos:top_padding="5vp"
+            ohos:left_padding="10vp">
+        </TextField>
+
+        <Button
+            ohos:id="$+id:search_btn"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:padding="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:scale_y="0.8"
+            ohos:scale_x="0.8"
+            ohos:element_right="$media:search_button">
+        </Button>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true">
+        <TableLayout
+            ohos:id="$+id:search_result_tablelayout"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="2"
+            ohos:margin="5vp">
+        </TableLayout>
+    </ScrollView>
+
+</DirectionalLayout>

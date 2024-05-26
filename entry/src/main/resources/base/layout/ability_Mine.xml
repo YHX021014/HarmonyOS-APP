@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center">
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="20vp"
+            ohos:image_src="$media:title">
+        </Image>
+
+<!--        <Button-->
+<!--            ohos:height="match_content"-->
+<!--            ohos:width="match_content"-->
+<!--            ohos:left_margin="230vp"-->
+<!--            ohos:element_right="$media:add"-->
+<!--            ohos:top_margin="20vp">-->
+<!--        </Button>-->
+    </DependentLayout>
+    <Image
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:top_margin="20vp"
+    ohos:layout_alignment="center"
+    ohos:scale_x="0.7"
+    ohos:scale_y="0.7"
+    ohos:image_src="$media:mine_heading">
+    </Image>
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:top_margin="-20vp"
+        ohos:image_src="$media:my_information">
+    </Image>
+
+    <Text
+        ohos:id="$+id:Mine_name"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="YHX"
+        ohos:text_color="#FF8C8C8C"
+        ohos:text_size="30fp"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="center"
+        ohos:top_margin="30vp"
+        ohos:bottom_margin="1vp">
+    </Text>
+
+    <Button
+        ohos:id="$+id:modify_name"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="修改用户信息"
+        ohos:text_color="#FF000000"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="25vp"
+        ohos:text_size="25vp">
+
+    </Button>
+    <Button
+        ohos:id="$+id:modify_inf"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="修改密码"
+        ohos:text_color="#FF000000"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="30vp"
+        ohos:text_size="25vp">
+
+    </Button>
+
+    <Button
+        ohos:id="$+id:log_out"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="#FF000000"
+        ohos:text="退出登录"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="30vp"
+        ohos:text_size="25vp">
+
+    </Button>
+</DirectionalLayout>

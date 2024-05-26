@@ -1,0 +1,254 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.myapplication",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplication.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoActionBar",
+          "extra": ""
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.myapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.RegistAbility",
+        "icon": "$media:icon",
+        "description": "$string:registability_description",
+        "label": "$string:entry_RegistAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.Page1Ability",
+        "icon": "$media:icon",
+        "description": "$string:page1ability_description",
+        "label": "$string:entry_Page1Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.Interface4Ability",
+        "icon": "$media:icon",
+        "description": "$string:interface4ability_description",
+        "label": "$string:entry_Interface4Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.Interface5Ability",
+        "icon": "$media:icon",
+        "description": "$string:interface5ability_description",
+        "label": "$string:entry_Interface5Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.Interface6Ability",
+        "icon": "$media:icon",
+        "description": "$string:interface6ability_description",
+        "label": "$string:entry_Interface6Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.MainAbility2",
+        "icon": "$media:icon",
+        "description": "$string:mainability2_description",
+        "label": "$string:entry_MainAbility2",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.HomeAbility",
+        "icon": "$media:icon",
+        "description": "$string:homeability_description",
+        "label": "$string:entry_HomeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.BasicPageAbility",
+        "icon": "$media:icon",
+        "description": "$string:basicpgaeability_description",
+        "label": "$string:entry_BasicPgaeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ModifyAbility",
+        "icon": "$media:icon",
+        "description": "$string:modifyability_description",
+        "label": "$string:entry_ModifyAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.DetailAbility",
+        "icon": "$media:icon",
+        "description": "$string:detailability_description",
+        "label": "$string:entry_DetailAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ForumDetailAbility",
+        "icon": "$media:icon",
+        "description": "$string:forumdetailability_description",
+        "label": "$string:entry_ForumDetailAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ModifyNameAbility",
+        "icon": "$media:icon",
+        "description": "$string:modifynameability_description",
+        "label": "$string:entry_ModifyNameAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.CommentAbility",
+        "icon": "$media:icon",
+        "description": "$string:commentability_description",
+        "label": "$string:entry_CommentAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.CreatePostAbility",
+        "icon": "$media:icon",
+        "description": "$string:createpostability_description",
+        "label": "$string:entry_CreatePostAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.CreateForumAbility",
+        "icon": "$media:icon",
+        "description": "$string:createforumability_description",
+        "label": "$string:entry_CreateForumAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.SubscribeForumAbility",
+        "icon": "$media:icon",
+        "description": "$string:subscribeforumability_description",
+        "label": "$string:entry_SubscribeForumAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.CreateCommentAbility",
+        "icon": "$media:icon",
+        "description": "$string:createcommentability_description",
+        "label": "$string:entry_CreateCommentAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.SearchUserAbility",
+        "icon": "$media:icon",
+        "description": "$string:searchuserability_description",
+        "label": "$string:entry_SearchUserAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.SearchAbility",
+        "icon": "$media:icon",
+        "description": "$string:searchability_description",
+        "label": "$string:entry_SearchAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.FollowUserAbility",
+        "icon": "$media:icon",
+        "description": "$string:followuserability_description",
+        "label": "$string:entry_FollowUserAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.FansUserAbility",
+        "icon": "$media:icon",
+        "description": "$string:fansuserability_description",
+        "label": "$string:entry_FansUserAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.UserDetailAbility",
+        "icon": "$media:icon",
+        "description": "$string:userdetailability_description",
+        "label": "$string:entry_UserDetailAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

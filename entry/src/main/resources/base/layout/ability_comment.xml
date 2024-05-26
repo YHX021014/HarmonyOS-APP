@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:padding="8vp"
+    ohos:background_element="$media:bk35">
+    <Image
+        ohos:id="$+id:comment_nb_img_nouse"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:commentnb">
+    </Image>
+
+    <Button
+        ohos:id="$+id:comment_page_create_comment_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10vp"
+        ohos:left_margin="325vp"
+        ohos:element_right="$media:add">
+    </Button>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="发布评论"
+        ohos:text_size="14vp"
+        ohos:left_margin="320vp"
+        ohos:top_margin="55vp">
+    </Text>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:below="$id:comment_nb_img_nouse"
+        ohos:top_margin="15vp"
+        ohos:rebound_effect="true">
+        <TableLayout
+            ohos:id="$+id:post_comment_list_table"
+            ohos:below="$id:comment_nb_img_nouse"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="1"
+            ohos:left_padding="15vp"
+            ohos:right_padding="15vp"
+            ohos:top_margin="10vp">
+        </TableLayout>
+    </ScrollView>
+
+
+
+</DependentLayout>

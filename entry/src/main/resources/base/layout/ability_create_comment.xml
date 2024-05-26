@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:padding="40vp">
+    <!--    ohos:orientation="vertical"-->
+    <!--    ohos:alignment="center"-->
+
+    <Image
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="40vp"
+        ohos:top_margin="10vp"
+        ohos:image_src="$media:title">
+    </Image>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="我的评论"
+        ohos:text_size="24vp"
+        ohos:top_margin="15vp"
+        ohos:text_color="#FF000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:create_comment_page_comment_TextField_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:multiple_lines="true"
+        ohos:hint="分享你的心情、观点和经历..."
+        ohos:text_size="20vp">
+
+    </TextField>
+
+    <Button
+        ohos:id="$+id:create_comment_page_create_comment_button_id"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="发  布"
+        ohos:background_element="$graphic:inpage_button_element_selector"
+        ohos:top_margin="250vp"
+        ohos:text_size="25vp">
+    </Button>
+
+</DirectionalLayout>

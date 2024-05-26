@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="130vp"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:inpage_button_element_selector"
+    ohos:padding="5vp"
+    ohos:margin="5vp">
+
+    <Image
+        ohos:id="$+id:forum_img"
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:background_element="$media:forum_img"
+        ohos:scale_mode="stretch"
+        ohos:left_margin="8vp"
+        ohos:vertical_center="true"/>
+
+    <Text
+        ohos:id="$+id:forum_name"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_top="$id:forum_img"
+        ohos:end_of="$id:forum_img"
+        ohos:left_margin="8vp"
+        ohos:max_text_lines="2"
+        ohos:multiple_lines="true"
+        ohos:right_margin="8vp"
+        ohos:text="戒色吧"
+        ohos:text_color="#2E2E2E"
+        ohos:text_size="22fp"
+        />
+
+    <Text
+        ohos:id="$+id:forum_inf"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="4vp"
+        ohos:end_of="$id:forum_img"
+        ohos:left_margin="8vp"
+        ohos:right_margin="70vp"
+        ohos:text="戒除手淫，拥抱自然"
+        ohos:text_color="#FF000000"
+        ohos:multiple_lines="true"
+        ohos:max_text_lines="3"
+        ohos:text_size="15fp"
+        ohos:top_margin="16vp"
+        ohos:below="$id:forum_name"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="关注量"
+        ohos:text_size="16fp"
+        ohos:left_margin="300vp"
+        ohos:top_margin="80vp">
+
+    </Text>
+    <Text
+        ohos:id="$+id:subscribe_count"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="2785"
+        ohos:text_size="12fp"
+        ohos:left_margin="306vp"
+        ohos:top_margin="100vp"
+        >
+
+    </Text>
+
+<!--    <Image-->
+<!--        ohos:id="$+id:image_car"-->
+<!--        ohos:height="20vp"-->
+<!--        ohos:width="20vp"-->
+<!--        ohos:align_bottom="$id:forum_img"-->
+<!--        ohos:align_parent_right="true"-->
+<!--        ohos:background_element="$media:icon_shopcart"-->
+<!--        ohos:right_margin="10vp"-->
+<!--        ohos:scale_mode="stretch"-->
+<!--        ohos:top_margin="20vp"/>-->
+
+</DependentLayout>

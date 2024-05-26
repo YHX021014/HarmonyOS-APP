@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bk35"
+    ohos:orientation="vertical">
+    <!--    ohos:alignment="center"-->
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_padding="30vp"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:id="$+id:forum_detail_image_id"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:image_src="$media:forum_img"
+            ohos:scale_mode="stretch">
+        </Image>
+        <Text
+            ohos:id="$+id:forum_detail_forumName_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="10vp"
+            ohos:text_size="30fp"
+            ohos:top_margin="20vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="崩坏：星穹铁道吧">
+        </Text>
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_content"
+        ohos:top_margin="10vp"
+        ohos:left_margin="30vp"
+        ohos:right_margin="30vp"
+        ohos:background_element="#FF9B9B9B">
+    </Component>
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp">
+        <Text
+            ohos:id="$+id:forum_detail_introduction_id"
+            ohos:height="match_content"
+            ohos:width="265vp"
+            ohos:max_text_lines="3"
+            ohos:multiple_lines="true"
+            ohos:text="简介写在这里！啦啦啦啦挺多的捏"
+            ohos:text_color="#FF000000"
+            ohos:text_size="20fp"
+            ohos:left_margin="1vp"
+            ohos:top_margin="15vp"
+            ohos:bottom_margin="1vp">
+        </Text>
+        <Image
+            ohos:id="$+id:forum_detail_subscribe_btn_id"
+            ohos:right_of="$id:forum_detail_introduction_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="13vp"
+            ohos:left_margin="10vp"
+            ohos:bottom_margin="1vp"
+            ohos:scale_x="0.7"
+            ohos:scale_y="0.7"
+            ohos:image_src="$media:subscribe0">
+        </Image>
+
+        <Text
+            ohos:id="$+id:forum_detail_subscribe_text_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:forum_detail_subscribe_btn_id"
+            ohos:right_of="$id:forum_detail_introduction_id"
+            ohos:text="关注吧"
+            ohos:text_size="16fp"
+            ohos:left_margin="8vp"
+            ohos:top_margin="-7vp">
+        </Text>
+
+        <Button
+            ohos:id="$+id:forum_detail_create_btn_id"
+            ohos:right_of="$id:forum_detail_subscribe_btn_id"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="8vp"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="1vp"
+            ohos:element_top="$media:add"
+            ohos:text_size="23fp"
+            ohos:text="发帖"
+            ohos:scale_x="0.7"
+            ohos:scale_y="0.7">
+        </Button>
+
+    </DependentLayout>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:padding="5vp"
+        ohos:rebound_effect="true">
+        <TableLayout
+            ohos:id="$+id:index_forum_post_list_table"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="1"
+            ohos:top_margin="10vp">
+        </TableLayout>
+    </ScrollView>
+
+</DirectionalLayout>
